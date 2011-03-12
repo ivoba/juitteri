@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Juitteri - Juitter(improved) Demo</title>
+<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" src="jquery.juitter.js" type="text/javascript"></script>
+<script language="javascript" src="system.js" type="text/javascript"></script>
+<script language="javascript" src="jquery.prettydate.js" type="text/javascript"></script>
+
+<style type="text/css">
+/*JUITTER PLUGIN CSS*/
+
+#juitterContainer{} /*Juitter container*/
+
+#juitterContainer .twittList{margin:0;padding:0;} /* UL that will contain the list of tweets */
+
+/* Bellow the list of tweets "<li>" */
+
+#juitterContainer .twittLI{list-style:none;background:#EEFDEA;margin:0;padding:5px 0 0 0;border-bottom:dashed 1px #CAF8C9;padding:3px;clear:both;height:55px;} 
+#juitterContainer .twittList SPAN.time{color:#777;font-size:0.9em}
+#juitterContainer .twittList A{color:#006600;} /*Links inside the tweets list */
+
+/* Bellow the CSS for the avatar image  */
+
+#juitterContainer .juitterAvatar{float:left;border:solid 1px #D3EECA;background:#FFF;margin-right:5px;padding:2px;width:48px;;height:48px;}
+
+#juitterContainer .jRM{float:right;clear:both} /*read it on twitter link*/
+
+#juitterContainer .extLink{} /*CSS for the external links*/
+
+#juitterContainer .hashLink{} /*CSS for the hash links*/
+
+/*end of Juitter CSS*/
+
+</style>
+</head>
+<body>
+<h1>Looking for <b>Nature</b> on Twitter</h1>
+<div id="juitterContainer"></div>
+<div>klappt nicht mit jquery > 1.4.4</div>
+</body>
+</html>
