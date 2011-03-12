@@ -2,7 +2,7 @@
 JUITTER 1.0.0 - 22/07/2009 - http://juitter.com
 BY RODRIGO FANTE - http://rodrigofante.com
 
-Imporvements & prettyDate support by Ivo Bathke
+Improvements & prettyDate support by Ivo Bathke
 
  ** jQuery 1.2.* or higher required
 
