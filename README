@@ -5,7 +5,6 @@ BY RODRIGO FANTE - http://rodrigofante.com
 Improvements & prettyDate support by Ivo Bathke
 
  ** jQuery 1.2.* or higher required
- ** it wont work -afaik- with jquery > 1.4.4
  
  it also relies on jquery.prettydate from:
  http://bassistance.de/jquery-plugins/jquery-plugin-prettydate/
